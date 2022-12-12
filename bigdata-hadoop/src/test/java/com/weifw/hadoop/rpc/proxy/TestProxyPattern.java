@@ -41,7 +41,7 @@ public class TestProxyPattern {
     }
 
     @Test
-    public void multi() throws Exception {
+    public void multiThread() throws Exception {
         final AtomicInteger threadsRun = new AtomicInteger();
 
         MultiThreadedTestUtil.TestContext ctx = new MultiThreadedTestUtil.TestContext();
