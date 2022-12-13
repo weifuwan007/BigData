@@ -7,7 +7,7 @@ public class TestNIO {
     @Test
     public void testBIOServer() {
         final BIOServer bio = new BIOServer();
-        bio.executeBIO();
+        bio.startServer();
     }
 
     @Test

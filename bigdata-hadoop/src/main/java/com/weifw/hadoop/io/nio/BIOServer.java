@@ -21,7 +21,7 @@ public class BIOServer {
 
     }
 
-    public void executeBIO() {
+    public void startServer() {
         final ExecutorService executorService = Executors.newFixedThreadPool(10);
         final ServerSocket serverSocket;
         try {
